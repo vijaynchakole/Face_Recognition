@@ -3,9 +3,8 @@
 Created on Fri May 15 15:06:51 2020
 
 @author: vijaynchakole
-
-https://towardsdatascience.com/image-scraping-with-python-a96feda8af2d
 """
+
 from selenium import webdriver
 import time
 import urllib.request
@@ -27,17 +26,6 @@ copy_img_url = []
 #wd.quit()
 
 
-"""
-folder_path = "C:\\Users\\hp\\Desktop\\Naaniz ML Internship" 
-url = "https://miro.medium.com/max/2560/1*MzV56PC6o8gjEU9lyGuR1Q.jpeg"
-image_content = requests.get(url).content
-image_file = io.BytesIO(image_content)
-image = Image.open(image_file).convert('RGB')
-file_path = os.path.join(folder_path,hashlib.sha1(image_content).hexdigest()[:10] + '.jpg')
-with open(file_path, 'wb') as f:
-    image.save(f, "JPEG", quality=85)
-
-"""
 
 
 
@@ -135,15 +123,6 @@ def search_and_download(search_term:str,driver_path:str,target_path='./images',n
      #   persist_image(target_folder,elem)
     
         
-
-
-# image collection completed for ...
-# "shrikhand", "thalipeeth", "vada pav", "Bisi Bele Bhaat", "kesari bath", "Mysore pak"
-"""
-categories = ["modak",Dharwad pedha,
-              "Chiroti"]    
-
-"""
 
 categories = "kim jong un"
 DRIVER_PATH = "C:\\Users\\hp\\Desktop\\chromedriver_win32\\chromedriver.exe"
