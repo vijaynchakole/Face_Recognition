@@ -1,5 +1,8 @@
 # Face_Recognition
 
+#### Project Files : Face_Recognition_From_Image.py, Face_Recognition_from_Video.py
+
+###### file for images download from google : images_download.py 
 
 #### Dependencies : face_recognition, cv2, sklearn, matplotlib, selenium (for images download from google), svm(sklearn), pickle
 short overview:
